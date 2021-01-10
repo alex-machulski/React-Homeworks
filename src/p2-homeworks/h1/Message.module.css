@@ -1,0 +1,76 @@
+.back {
+    background-color: greenyellow;
+    height: 150px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.speech-wrapper {
+    padding: 30px 40px;
+}
+
+.imgavatar {
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.bubble {
+    width: 240px;
+    height: auto;
+    display: inline-block;
+    background: #0a4f11;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.txt {
+    padding: 8px 55px 8px 14px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 4px;
+    color: #d787fa;
+}
+
+span {
+    font-weight: normal;
+    color: #b3b3b3;
+}
+
+.message {
+    font-size: 14px;
+    margin: 0;
+    color: #edf7f6;
+}
+
+.timestamp {
+    font-size: 11px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 0 15px 15px;
+    border-color: transparent transparent #0a4f11 transparent;
+    top: 85%;
+    left: -8px;
+    margin-top: -6px;
+}

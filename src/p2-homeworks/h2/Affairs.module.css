@@ -1,0 +1,19 @@
+.myAffairs, .deleteButton {
+    margin-left: 5px;
+}
+
+.priorityButton {
+    margin-left: 3px;
+}
+
+.highPriority {
+    color: red;
+}
+
+.middlePriority {
+    color: orange;
+}
+
+.lowPriority {
+    color: green;
+}
