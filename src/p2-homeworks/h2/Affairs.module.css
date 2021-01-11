@@ -4,6 +4,27 @@
 
 .priorityButton {
     margin-left: 3px;
+    background-color: royalblue;
+    /*border: none;*/
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.deleteButton {
+    background-color: red;
+    /*border: none;*/
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .highPriority {

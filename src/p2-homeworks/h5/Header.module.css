@@ -1,0 +1,35 @@
+
+.item a.activeLink {
+    color: black;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: cornflowerblue;
+    width: 120px;
+    transition-duration: 1s;
+    display: inline-block;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.closed {
+    transform: translateX(-69%);
+    transition-duration: 1s;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonMenu {
+    background-color: #4CAF50;
+    border-radius: 3px;
+    color: #edf7f6;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
