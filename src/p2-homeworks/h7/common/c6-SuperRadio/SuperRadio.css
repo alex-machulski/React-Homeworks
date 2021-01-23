@@ -8,10 +8,10 @@ input[type="radio"] + label span {
     height: 19px;
     margin: -1px 4px 0 5px;
     vertical-align: middle;
-    background: url(check_radio_sheet.png) -38px top no-repeat;
+    background: url(https://proweb63.ru/assets/chema/images/blog/check_radio_sheet.png) -38px top no-repeat;
     cursor: pointer;
 }
 
 input[type="radio"]:checked + label span {
-    background: url(check_radio_sheet.png) -57px top no-repeat;
+    background: url(https://proweb63.ru/assets/chema/images/blog/check_radio_sheet.png) -57px top no-repeat;
 }
