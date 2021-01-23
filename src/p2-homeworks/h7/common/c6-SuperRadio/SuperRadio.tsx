@@ -22,7 +22,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         // onChange, onChangeOption - done
     }
 
-    const mappedOptions: JSX.Element[] = options ? options.map((o, i) => ( // map options with key
+    const mappedOptions: JSX.Element[] = options ? options.map((o, i) => (
         <div className="form_radio">
             <input
                 id={"radio" + i}
