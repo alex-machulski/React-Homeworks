@@ -26,7 +26,7 @@ function Clock() {
     };
 
     const stringTime = date ? date.toLocaleTimeString() : "Press 'start' to show the time"; // fix with date
-    const stringDate = date?.toLocaleDateString(); // fix with date
+    const stringDate = date? date.toLocaleDateString() : " ¯\\_(ツ)_/¯"; // fix with date
 
     return (
         <div>
