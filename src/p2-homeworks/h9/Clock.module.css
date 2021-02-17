@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+.date {
+    font-size: 150%;
+    margin: 10px;
+}
+
+.time {
+    font-size: 150%;
+    margin: 10px;
+    color: blue;
+}
