@@ -14,10 +14,42 @@
     color: aqua;
 }
 
-.some {
+.light-green {
     background: lightgreen;
 }
 
-.some-text {
+.light-green-text {
     color: darkslateblue;
+}
+
+.violet {
+    background-color: #d787fa;
+}
+
+.violet-text {
+    color: darkviolet;
+}
+
+.blue {
+    background-color: #43e5f7;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.military-green {
+    background-color: darkgreen;
+}
+
+.military-green-text {
+    color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow-text {
+    color: orangered;
 }
